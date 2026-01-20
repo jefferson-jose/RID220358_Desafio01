@@ -3,6 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
     <title>Landing Page Arquitetura</title>
     <link rel="stylesheet" href="style.css">
 </head>
@@ -49,9 +52,10 @@
    
     <section class="contact">
         <h3>Conheça mais sobre nossos serviços:</h3>
-        <form>
-            <input type="text" placeholder="Nome">
-            <input type="email" placeholder="Email">
+        <form action="https://api.sheetmonkey.io/form/hhNdY8CGZkHLLJwFyhySXE" method="post">
+            <input type="text" placeholder="Nome" name="Name" required>
+            <input type="email" placeholder="Email" name="Email" required>
+             <input type="hidden" name="Created" value="x-sheetmonkey-current-date-time" />
             <button type="submit">Fale Conosco</button>
         </form>
     </section>
